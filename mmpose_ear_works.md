@@ -166,6 +166,7 @@ python demo/topdown_demo_with_mmdet.py \
         --draw-heatmap \
         --show-kpt-idx
 ```
+See [MyEarDetected.gif](https://github.com/MetaFeature/MMlab_Works/edit/main/MyEarDetected.gif)
 ![gif](MyEarDetected.gif)
 
 
