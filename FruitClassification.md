@@ -38,8 +38,8 @@ results:
 06/07 20:08:44 - mmengine - INFO - Epoch(train) [100][28/28]  lr: 1.0000e-04  eta: 0:00:00  time: 0.2659  data_time: 0.0006  memory: 10868  loss: 0.7593
 06/07 20:08:44 - mmengine - INFO - Saving checkpoint at 100 epochs
 06/07 20:08:45 - mmengine - INFO - Epoch(val) [100][4/4]    accuracy/top1: 72.0000  accuracy/top5: 96.0000  data_time: 0.0481  time: 0.1147
-
 ```
+
 # 测试
 python tools/test.py projects/fruit30_Classification/resnet50_fruit_classification.py ./exp/epoch_100.pth --work-dir=./exp
 results:
@@ -49,6 +49,7 @@ Loads checkpoint by local backend from path: ./exp/epoch_100.pth
 06/07 20:18:20 - mmengine - INFO - Load checkpoint from ./exp/epoch_100.pth
 06/07 20:18:21 - mmengine - INFO - Epoch(test) [4/4]    accuracy/top1: 69.3305  accuracy/top5: 94.1685  data_time: 0.1034  time: 0.1926
 ```
+
 # 推理
 ```angular2html
 from mmpretrain import ImageClassificationInferencer
@@ -57,4 +58,5 @@ inferencer = ImageClassificationInferencer('resnet50_fruit_classification.py', p
 inferencer('../../../data/fruit30/test/哈密瓜/12.jpg', show='Ture')
 ```
 Results:
+
 ![png](myplot.png)
