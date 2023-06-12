@@ -14,3 +14,6 @@ Work 1：
 
 Work 2：
 [FruitClassification.md](FruitClassification.md)
+
+Work 3：
+[RTMDet_Show.md](RTMDet_Show.md)
