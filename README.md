@@ -10,13 +10,13 @@ See other markdown files for details.
 具体内容参见其他markdown文件。
 
 Work 1：
-[mmpose_ear_works.md](mmpose_ear_works.md)
+[mmpose_ear_works](mmpose_ear_works.md)
 
 Work 2：
-[FruitClassification.md](FruitClassification.md)
+[FruitClassification](FruitClassification.md)
 
 Work 3：
-[RTMDet_Show.md](RTMDet_Show.md)
+[RTMDet_Show](RTMDet_Show.md)
 
 Work 4:
 [Watermelon](Work04.md)
